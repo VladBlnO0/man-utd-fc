@@ -1,8 +1,9 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="ua">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <base href="/man-utd-fc/" />
 
         <title>Home</title>
 
@@ -11,9 +12,15 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+
+        <style>
+            .bg-secondary {
+                background-color: darkred !important;
+            }
+        </style>
     </head>
 
-    <body class="bg-light">
+    <body class="bg-light d-flex flex-column min-vh-100">
         <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
             <a class="navbar-brand" href="#">⚽ TeamSite</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
@@ -22,31 +29,27 @@
 
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active"><a class="nav-link" href="#">Main</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/players.html">Players</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="index.html">Main</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="players.html">Players</a></li>
                 </ul>
             </div>
         </nav>
 
-        <div class="bg-secondary text-white py-2 px-3 d-flex align-items-center" style="height: 48px;">
-            <h5 class="mb-0">Meet our team</h5>
+        <div class="bg-secondary text-white py-2 px-3 d-flex align-items-center" style="height: 48px; background-color: darkred">
+            <h5 class="mb-0">Манчестер Юнайтед</h5>
         </div>
 
         <div class="container py-5 text-center">
-            <h2>[NAME]</h2>
-            <div class="mx-auto my-4" style="max-width: 600px; border-radius: 20px; overflow: hidden;">
-                <img
-                    src="img/team.jpg"
-                    alt="Team"
-                    class="img-fluid rounded"
-                    style="width: 100%; height: auto;"
-                />
+            <h2 style="font-size: 48px; font-weight: bold">Manchester United</h2>
+            <div class="mx-auto my-4" style="max-width: 600px; border-radius: 20px; overflow: hidden">
+                <img src="img/team.jpg" alt="Team" class="img-fluid rounded" style="width: 100%; height: auto" />
             </div>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id justo eu velit pretium mattis.</p>
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            <p style="font-size: 22px">«Манчестер Юнайтед» — один із найуспішніших англійських клубів за кількістю трофеїв за всю історію</p>
         </div>
-
+        <footer class="bg-dark text-white text-center py-1 mt-auto">
+            <small>&copy; 2025 TeamSite. Всі права захищені.</small>
+        </footer>
         <!-- Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
