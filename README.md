@@ -1,3 +1,3 @@
 # man-utd-fc.github.io
 
-Website about football team
+Website about a football team
