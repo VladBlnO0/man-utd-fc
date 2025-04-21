@@ -1,0 +1,49 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+
+.navbar-nav .nav-link img {
+    display: block;
+    margin: 0 auto 4px;
+}
+
+.navbar-nav .nav-item:hover .nav-link,
+.navbar-nav .nav-link.active {
+    color: #007bff;
+}
+
+.team-card {
+    background-color: #dee1e6;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    margin: 30px auto;
+    max-width: 700px;
+}
+
+.team-img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.team-name {
+    font-size: 2rem;
+    margin: 20px 0;
+}
+.page-banner h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+.page-banner p {
+    font-size: 1rem;
+    color: #666;
+}

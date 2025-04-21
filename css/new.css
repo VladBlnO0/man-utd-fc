@@ -1,0 +1,722 @@
+#frame1 {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    background: #ffffff;
+}
+
+#navigationrail {
+    position: absolute;
+    top: 72px;
+    width: 72px;
+    height: 1920px;
+    overflow: hidden;
+    background: rgba(118,118,128,0.12);
+    transform: rotate(-90deg);
+}
+
+#menufab {
+    position: absolute;
+    left: -4px;
+    top: 44px;
+    width: 80px;
+    height: 48px;
+}
+
+#menu {
+    position: absolute;
+    left: 16px;
+    top: 48px;
+    width: 48px;
+    height: 48px;
+    transform: rotate(-90deg);
+}
+
+#container {
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 100px;
+}
+
+#state-layer {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+
+#icon {
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    width: 24px;
+    height: 24px;
+}
+
+#icon {
+    position: absolute;
+    left: 3px;
+    top: 6px;
+    width: 18px;
+    height: 12px;
+    background: #000000;
+}
+
+#path {
+    position: absolute;
+    width: 18px;
+    height: 2px;
+}
+
+#path {
+    position: absolute;
+    top: 5px;
+    width: 18px;
+    height: 2px;
+}
+
+#path {
+    position: absolute;
+    top: 10px;
+    width: 18px;
+    height: 2px;
+}
+
+#destinations {
+    position: absolute;
+    left: 7.5px;
+    top: 132px;
+    width: 57px;
+    height: 356px;
+    overflow: hidden;
+}
+
+#navitem1 {
+    position: absolute;
+    left: 57px;
+    width: 80px;
+    height: 56px;
+    transform: rotate(90deg);
+}
+
+#container {
+    position: absolute;
+    left: 12px;
+    width: 56px;
+    height: 32px;
+    overflow: hidden;
+    border-radius: 100px;
+    background: #ffffff;
+}
+
+#state-layer {
+    position: absolute;
+    width: 56px;
+    height: 32px;
+}
+
+#icon {
+    position: absolute;
+    left: 16px;
+    top: 4px;
+    width: 24px;
+    height: 24px;
+}
+
+#icon {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 20px;
+    height: 20px;
+    background: #000000;
+}
+
+#path {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+#path {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+}
+
+#path {
+    position: absolute;
+    left: 3.5px;
+    top: 3px;
+    width: 13px;
+    height: 13px;
+}
+
+#label {
+    position: absolute;
+    left: 2px;
+    top: 36px;
+    width: 76px;
+    height: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    text-align: center;
+    color: #1d1b20;
+}
+
+#navitem2 {
+    position: absolute;
+    left: 57px;
+    top: 92px;
+    width: 80px;
+    height: 56px;
+    transform: rotate(90deg);
+}
+
+#container {
+    position: absolute;
+    left: 12px;
+    width: 56px;
+    height: 32px;
+    overflow: hidden;
+    border-radius: 100px;
+}
+
+#state-layer {
+    position: absolute;
+    width: 56px;
+    height: 32px;
+    background: #999999;
+}
+
+#icon {
+    position: absolute;
+    left: 16px;
+    top: 4px;
+    width: 24px;
+    height: 24px;
+}
+
+#icon {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 20px;
+    height: 20px;
+    background: #000000;
+}
+
+#path {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+#path {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+}
+
+#path {
+    position: absolute;
+    left: 3.5px;
+    top: 3px;
+    width: 13px;
+    height: 13px;
+}
+
+#label {
+    position: absolute;
+    left: 2px;
+    top: 36px;
+    width: 76px;
+    height: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    text-align: center;
+    color: #1d1b20;
+}
+
+#navitem3 {
+    position: absolute;
+    left: 57px;
+    top: 184px;
+    width: 80px;
+    height: 56px;
+    transform: rotate(90deg);
+}
+
+#container {
+    position: absolute;
+    left: 12px;
+    width: 56px;
+    height: 32px;
+    overflow: hidden;
+    border-radius: 100px;
+}
+
+#state-layer {
+    position: absolute;
+    width: 56px;
+    height: 32px;
+    background: #999999;
+}
+
+#icon {
+    position: absolute;
+    left: 16px;
+    top: 4px;
+    width: 24px;
+    height: 24px;
+}
+
+#icon {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 20px;
+    height: 20px;
+    background: #000000;
+}
+
+#path {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+#path {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+}
+
+#path {
+    position: absolute;
+    left: 3.5px;
+    top: 3px;
+    width: 13px;
+    height: 13px;
+}
+
+#label {
+    position: absolute;
+    left: 2px;
+    top: 36px;
+    width: 76px;
+    height: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    text-align: center;
+    color: #1d1b20;
+}
+
+#navitem4 {
+    position: absolute;
+    left: 57px;
+    top: 276px;
+    width: 80px;
+    height: 56px;
+    transform: rotate(90deg);
+}
+
+#container {
+    position: absolute;
+    left: 12px;
+    width: 56px;
+    height: 32px;
+    overflow: hidden;
+    border-radius: 100px;
+}
+
+#state-layer {
+    position: absolute;
+    width: 56px;
+    height: 32px;
+    background: #999999;
+}
+
+#icon {
+    position: absolute;
+    left: 16px;
+    top: 4px;
+    width: 24px;
+    height: 24px;
+}
+
+#icon {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 20px;
+    height: 20px;
+    background: #000000;
+}
+
+#path {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+#path {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+}
+
+#path {
+    position: absolute;
+    left: 3.5px;
+    top: 3px;
+    width: 13px;
+    height: 13px;
+}
+
+#label {
+    position: absolute;
+    left: 2px;
+    top: 36px;
+    width: 76px;
+    height: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    text-align: center;
+    color: #1d1b20;
+}
+
+#site {
+    position: absolute;
+    top: 72px;
+    width: 1920px;
+    height: 777px;
+}
+
+#topappbar {
+    position: absolute;
+    width: 1920px;
+    height: 83.56px;
+    background: rgba(128,128,128,0.55);
+}
+
+#leading-icon {
+    position: absolute;
+    left: 4px;
+    top: 8px;
+    width: 48px;
+    height: 48px;
+}
+
+#container {
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 100px;
+}
+
+#state-layer {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+
+#icon {
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    width: 24px;
+    height: 24px;
+}
+
+#icon {
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    width: 16px;
+    height: 16px;
+    background: #1d1b20;
+}
+
+#headline {
+    position: absolute;
+    left: 12px;
+    top: 27.78px;
+    width: 1896px;
+    height: 28px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    white-space: nowrap;
+    color: #1d1b20;
+}
+
+#trailing-icon {
+    position: absolute;
+    left: 264px;
+    top: 8px;
+    width: 144px;
+    height: 48px;
+}
+
+#trailing-icon1 {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+}
+
+#container {
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 100px;
+}
+
+#state-layer {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+
+#icon {
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    width: 24px;
+    height: 24px;
+}
+
+#icon {
+    position: absolute;
+    left: 5px;
+    top: 3px;
+    width: 14px;
+    height: 18px;
+    background: #49454f;
+}
+
+#path {
+    position: absolute;
+    width: 14px;
+    height: 18px;
+}
+
+#path {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 10px;
+    height: 12.95px;
+}
+
+#trailing-icon2 {
+    position: absolute;
+    left: 48px;
+    width: 48px;
+    height: 48px;
+}
+
+#container {
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 100px;
+}
+
+#state-layer {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+
+#icon {
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    width: 24px;
+    height: 24px;
+}
+
+#icon {
+    position: absolute;
+    left: 3px;
+    top: 2px;
+    width: 18px;
+    height: 20px;
+    background: #49454f;
+}
+
+#path {
+    position: absolute;
+    width: 18px;
+    height: 20px;
+}
+
+#path {
+    position: absolute;
+    left: 2px;
+    top: 8px;
+    width: 14px;
+    height: 10px;
+}
+
+#path {
+    position: absolute;
+    left: 3.5px;
+    top: 9.5px;
+    width: 5px;
+    height: 5px;
+}
+
+#trailing-icon3 {
+    position: absolute;
+    left: 96px;
+    width: 48px;
+    height: 48px;
+}
+
+#container {
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 100px;
+}
+
+#state-layer {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+
+#icon {
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    width: 24px;
+    height: 24px;
+}
+
+#icon {
+    position: absolute;
+    left: 10px;
+    top: 4px;
+    width: 4px;
+    height: 16px;
+    background: #49454f;
+}
+
+#path {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+}
+
+#path {
+    position: absolute;
+    top: 6px;
+    width: 4px;
+    height: 4px;
+}
+
+#path {
+    position: absolute;
+    top: 12px;
+    width: 4px;
+    height: 4px;
+}
+
+#header {
+    position: absolute;
+    top: 84px;
+    width: 1920px;
+    height: 693px;
+}
+
+#image {
+    position: absolute;
+    left: 431px;
+    top: 140px;
+    width: 1058.45px;
+    height: 553px;
+    overflow: hidden;
+    border-radius: 28px;
+    background: url(../img/team_photo.jpg);
+    background-size: 1058.45px 553px;
+}
+
+#headline {
+    position: absolute;
+    left: 832px;
+    top: 57px;
+    width: 256px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 32px;
+    white-space: nowrap;
+    color: #1d1b20;
+}
+
+#supportingtext {
+    position: absolute;
+    left: 499px;
+    top: 900px;
+    width: 937px;
+    height: 95px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    white-space: nowrap;
+    color: #1d1b20;
+}
+

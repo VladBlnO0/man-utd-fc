@@ -4,5 +4,8 @@
     },
     "scripts": {
         "format": "prettier --write ."
+    },
+    "dependencies": {
+        "bootstrap": "^5.3.5"
     }
 }
