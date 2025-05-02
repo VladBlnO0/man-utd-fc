@@ -1,57 +1,87 @@
 <!DOCTYPE html>
 <html lang="uk-UA">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <base href="/man-utd-fc/">
-        <link rel="icon" href="img/favicon.png" type="image/png">
-        <title>Home</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="/man-utd-fc/">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <title>Home</title>
 
-        <meta name="description" content="Welcome page to our site">
-        <meta name="author" content="VlBl!">
+    <meta name="description" content="Welcome page to our site">
+    <meta name="author" content="VlBl!">
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 
-        <style>
-            .bg-secondary {
-                background-color: darkred !important;
+    <style>
+        .bg-secondary {
+            background-color: darkred !important;
+        }
+
+        @media (max-width: 575.98px) {
+            h2 {
+                font-size: 28px !important;
             }
-        </style>
-    </head>
+            p {
+                font-size: 16px !important;
+            }
+            .navbar-brand {
+                font-size: 18px !important;
+            }
+            .bg-secondary h5 {
+                font-size: 16px !important;
+            }
+        }
 
-    <body class="bg-light d-flex flex-column min-vh-100">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
-            <a class="navbar-brand" href="#">⚽ TeamSite</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        @media (min-width: 576px) and (max-width: 767.98px) {
+            h2 {
+                font-size: 36px !important;
+            }
+            p {
+                font-size: 18px !important;
+            }
+            .navbar-brand {
+                font-size: 20px !important;
+            }
+            .bg-secondary h5 {
+                font-size: 18px !important;
+            }
+        }
+    </style>
+</head>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active"><a class="nav-link" href="index.html">Main</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="players.html">Players</a></li>
-                </ul>
-            </div>
-        </nav>
+<body class="bg-light d-flex flex-column min-vh-100">
+<nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+    <a class="navbar-brand" href="#">⚽ TeamSite</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="bg-secondary text-white py-2 px-3 d-flex align-items-center" style="height: 48px; background-color: darkred">
-            <h5 class="mb-0">Манчестер Юнайтед</h5>
-        </div>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a class="nav-link" href="index.html">Main</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="players.html">Players</a></li>
+        </ul>
+    </div>
+</nav>
 
-        <div class="container py-5 text-center">
-            <h2 style="font-size: 48px; font-weight: bold">Manchester United</h2>
-            <div class="mx-auto my-4" style="max-width: 600px; border-radius: 20px; overflow: hidden">
-                <img src="img/team.jpg" alt="Team" class="img-fluid rounded" style="width: 100%; height: auto">
-            </div>
-            <p style="font-size: 22px">«Манчестер Юнайтед» — один із найуспішніших англійських клубів за кількістю трофеїв за всю історію</p>
-        </div>
-        <footer class="bg-dark text-white text-center py-1 mt-auto">
-            <small>&copy; 2025 TeamSite. Всі права захищені.</small>
-        </footer>
-        <!-- Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
-    </body>
+<div class="bg-secondary text-white py-2 px-3 d-flex align-items-center" style="height: 48px; background-color: darkred">
+    <h5 class="mb-0">Манчестер Юнайтед</h5>
+</div>
+
+<div class="container py-5 text-center">
+    <h2 style="font-size: 48px; font-weight: bold">Manchester United</h2>
+    <div class="mx-auto my-4" style="max-width: 600px; border-radius: 20px; overflow: hidden">
+        <img src="img/team.jpg" alt="Team" class="img-fluid rounded" style="width: 100%; height: auto">
+    </div>
+    <p style="font-size: 22px">«Манчестер Юнайтед» — один із найуспішніших англійських клубів за кількістю трофеїв за всю історію</p>
+</div>
+<footer class="bg-dark text-white text-center py-1 mt-auto">
+    <small>&copy; 2025 TeamSite. Всі права захищені.</small>
+</footer>
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>

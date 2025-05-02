@@ -1,157 +1,160 @@
 <!DOCTYPE html>
+
 <html lang="uk-UA">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <base href="/man-utd-fc/">
-        <link rel="icon" href="img/favicon.png" type="image/png">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <base href="/man-utd-fc/"/>
+    <link href="img/favicon.png" rel="icon" type="image/png"/>
+    <title>Players</title>
+    <meta content="Welcome page to our site" name="description"/>
+    <meta content="VlBl!" name="author"/>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <style>
+        .bg-secondary {
+            background-color: darkred !important;
+        }
+        .player-card {
+            background-color: #d5d7db;
+            border-radius: 12px;
+            padding: 1rem;
+            text-align: center;
+            margin-bottom: 1.5rem;
+            height: 220px;
+        }
 
-        <title>Players</title>
+        .player-name {
+            font-weight: 500;
+            font-size: 2rem;
+            margin-top: 10rem;
+        }
 
-        <meta name="description" content="Welcome page to our site">
-        <meta name="author" content="VlBl!">
-
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-
-        <style>
-            .bg-secondary {
-                background-color: darkred !important;
-            }
-            .player-card {
-                background-color: #d5d7db;
-                border-radius: 12px;
-                padding: 1rem;
-                text-align: center;
-                margin-bottom: 1.5rem;
-                height: 220px;
-            }
-
+        @media (max-width: 575.98px) {
             .player-name {
-                font-weight: 500;
-                font-size: 2rem;
-                margin-top: 10rem;
+                font-size: 16px !important;
+                margin-top: 6rem !important;
             }
-        </style>
-    </head>
-
-    <body class="bg-light d-flex flex-column min-vh-100">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
-            <a class="navbar-brand" href="#">⚽ TeamSite</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Main</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="players.html">Players</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div class="bg-secondary text-white py-2 px-3 d-flex align-items-center" style="height: 48px">
-            <h5 class="mb-0">Гравці</h5>
-        </div>
-
-        <div class="container my-4">
-            <h5 class="mb-3">Воротарі</h5>
-            <div class="row">
-                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-                    <div
-                        class="player-card"
-                        style="
+            .navbar-brand {
+                font-size: 18px !important;
+            }
+            .bg-secondary h5 {
+                font-size: 16px !important;
+            }
+            h5 {
+                font-size: 18px !important;
+            }
+        }
+        @media (min-width: 576px) and (max-width: 767.98px) {
+            .player-name {
+                font-size: 18px !important;
+                margin-top: 8rem !important;
+            }
+            .navbar-brand {
+                font-size: 20px !important;
+            }
+            .bg-secondary h5 {
+                font-size: 18px !important;
+            }
+        }
+    </style>
+</head>
+<body class="bg-light d-flex flex-column min-vh-100">
+<nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+    <a class="navbar-brand" href="#">⚽ TeamSite</a>
+    <button class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Main</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item active"><a class="nav-link" href="players.html">Players</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="bg-secondary text-white py-2 px-3 d-flex align-items-center" style="height: 48px">
+    <h5 class="mb-0">Гравці</h5>
+</div>
+<div class="container my-4">
+    <h5 class="mb-3">Воротарі</h5>
+    <div class="row">
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <div class="player-card" style="
                             background-position: center;
                             background-size: 220px 100%;
                             overflow: hidden;
                             background-repeat: no-repeat;
                             background-image: url('img/Cristiano_Ronaldo_2018.jpg');
-                        "
-                    >
-                        <div class="player-name" style="color: white">Ім'я</div>
-                    </div>
-                </div>
-                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-                    <div
-                        class="player-card"
-                        style="
-                            background-position: center;
-                            background-size: 220px 100%;
-                            overflow: hidden;
-                            background-repeat: no-repeat;
-                            background-image: url('img/Cristiano_Ronaldo_2018.jpg');
-                        "
-                    >
-                        <div class="player-name" style="color: white">Ім'я</div>
-                    </div>
-                </div>
-                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-                    <div
-                        class="player-card"
-                        style="
-                            background-position: center;
-                            background-size: 220px 100%;
-                            overflow: hidden;
-                            background-repeat: no-repeat;
-                            background-image: url('img/Cristiano_Ronaldo_2018.jpg');
-                        "
-                    >
-                        <div class="player-name" style="color: white">Ім'я</div>
-                    </div>
-                </div>
-            </div>
-
-            <h5 class="mt-4 mb-3">Гравці</h5>
-            <div class="row">
-                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-                    <div
-                        class="player-card"
-                        style="
-                            background-position: center;
-                            background-size: 220px 100%;
-                            overflow: hidden;
-                            background-repeat: no-repeat;
-                            background-image: url('img/Cristiano_Ronaldo_2018.jpg');
-                        "
-                    >
-                        <div class="player-name" style="color: white">Ім'я</div>
-                    </div>
-                </div>
-                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-                    <div
-                        class="player-card"
-                        style="
-                            background-position: center;
-                            background-size: 220px 100%;
-                            overflow: hidden;
-                            background-repeat: no-repeat;
-                            background-image: url('img/Cristiano_Ronaldo_2018.jpg');
-                        "
-                    >
-                        <div class="player-name" style="color: white">Ім'я</div>
-                    </div>
-                </div>
-                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-                    <div
-                        class="player-card"
-                        style="
-                            background-position: center;
-                            background-size: 220px 100%;
-                            overflow: hidden;
-                            background-repeat: no-repeat;
-                            background-image: url('img/Cristiano_Ronaldo_2018.jpg');
-                        "
-                    >
-                        <div class="player-name" style="color: white">Ім'я</div>
-                    </div>
-                </div>
+                        ">
+                <div class="player-name" style="color: white">Ім'я</div>
             </div>
         </div>
-        <footer class="bg-dark text-white text-center py-1 mt-auto">
-            <small>&copy; 2025 TeamSite. Всі права захищені.</small>
-        </footer>
-        <!-- Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-    </body>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <div class="player-card" style="
+                            background-position: center;
+                            background-size: 220px 100%;
+                            overflow: hidden;
+                            background-repeat: no-repeat;
+                            background-image: url('img/Cristiano_Ronaldo_2018.jpg');
+                        ">
+                <div class="player-name" style="color: white">Ім'я</div>
+            </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <div class="player-card" style="
+                            background-position: center;
+                            background-size: 220px 100%;
+                            overflow: hidden;
+                            background-repeat: no-repeat;
+                            background-image: url('img/Cristiano_Ronaldo_2018.jpg');
+                        ">
+                <div class="player-name" style="color: white">Ім'я</div>
+            </div>
+        </div>
+    </div>
+    <h5 class="mt-4 mb-3">Гравці</h5>
+    <div class="row">
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <div class="player-card" style="
+                            background-position: center;
+                            background-size: 220px 100%;
+                            overflow: hidden;
+                            background-repeat: no-repeat;
+                            background-image: url('img/Cristiano_Ronaldo_2018.jpg');
+                        ">
+                <div class="player-name" style="color: white">Ім'я</div>
+            </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <div class="player-card" style="
+                            background-position: center;
+                            background-size: 220px 100%;
+                            overflow: hidden;
+                            background-repeat: no-repeat;
+                            background-image: url('img/Cristiano_Ronaldo_2018.jpg');
+                        ">
+                <div class="player-name" style="color: white">Ім'я</div>
+            </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <div class="player-card" style="
+                            background-position: center;
+                            background-size: 220px 100%;
+                            overflow: hidden;
+                            background-repeat: no-repeat;
+                            background-image: url('img/Cristiano_Ronaldo_2018.jpg');
+                        ">
+                <div class="player-name" style="color: white">Ім'я</div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="bg-dark text-white text-center py-1 mt-auto">
+    <small>© 2025 TeamSite. Всі права захищені.</small>
+</footer>
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
